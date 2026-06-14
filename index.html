@@ -1,8 +1,26 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <script type="module" src="common.mjs"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Days Calendar</title>
+
     <script type="module" src="web.mjs"></script>
   </head>
-  <body></body>
+  <body>
+    <h1>Days Calendar</h1>
+
+    <div>
+      <button id="prev-month" aria-label="Previous month">Previous</button>
+      <label for="month-select">Month:</label>
+      <select id="month-select"></select>
+
+      <label for="year-select">Year:</label>
+      <select id="year-select"></select>
+
+      <button id="next-month" aria-label="Next month">Next</button>
+    </div>
+
+    <div id="calendar"></div>
+  </body>
 </html>
