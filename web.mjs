@@ -19,7 +19,9 @@ const months = [
   "November",
   "December",
 ];
-
+function getDaysInMonth(month, year) {
+  return new Date(year, month + 1, 0).getDate();
+}
 window.onload = function () {
   const monthSelect = document.getElementById("month-select");
   const yearSelect = document.getElementById("year-select");
