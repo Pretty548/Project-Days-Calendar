@@ -26,6 +26,15 @@ function createCalendarGrid(month, year) {
   const daysInMonth = getDaysInMonth(month, year);
   const firstDayOfWeek = new Date(year, month, 1).getDay();
 
+  const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+  weekdays.forEach((dayName) => {
+    const header = document.createElement("div");
+    header.classList.add("calendar-cell");
+    header.textContent = dayName;
+    calendar.appendChild(header);
+  });
+
   for (let i = 0; i < firstDayOfWeek; i++) {
     const emptyCell = document.createElement("div");
     emptyCell.classList.add("calendar-cell", "empty");
