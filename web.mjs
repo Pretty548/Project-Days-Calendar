@@ -1,22 +1,25 @@
 import daysData from "./days.json" with { type: "json" };
-
-const months = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-];
+import { getCommemorativeDate, monthNames } from "./common.mjs";
 
 function getDaysInMonth(month, year) {
   return new Date(year, month + 1, 0).getDate();
+}
+
+function getEventsForMonth(month, year) {
+  const events = {};
+
+  daysData.forEach((day) => {
+    const date = getCommemorativeDate(day, year);
+
+    // Only include events that fall in the current month
+    if (date.getMonth() === month) {
+      const d = date.getDate();
+      if (!events[d]) events[d] = [];
+      events[d].push(day.name);
+    }
+  });
+
+  return events;
 }
 
 function createCalendarGrid(month, year) {
@@ -25,6 +28,7 @@ function createCalendarGrid(month, year) {
 
   const daysInMonth = getDaysInMonth(month, year);
   const firstDayOfWeek = new Date(year, month, 1).getDay();
+  const events = getEventsForMonth(month, year);
 
   const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
@@ -45,6 +49,16 @@ function createCalendarGrid(month, year) {
     const cell = document.createElement("div");
     cell.classList.add("calendar-cell");
     cell.textContent = day;
+
+    if (events[day]) {
+      events[day].forEach((eventName) => {
+        const eventEl = document.createElement("div");
+        eventEl.classList.add("event");
+        eventEl.textContent = eventName;
+        cell.appendChild(eventEl);
+      });
+    }
+
     calendar.appendChild(cell);
   }
 }
@@ -61,14 +75,14 @@ window.onload = function () {
 
   const currentYear = new Date().getFullYear();
 
-  months.forEach((month, index) => {
+  monthNames.forEach((month, index) => {
     const option = document.createElement("option");
     option.value = index;
     option.textContent = month;
     monthSelect.appendChild(option);
   });
 
-  for (let year = currentYear - 10; year <= currentYear + 10; year++) {
+  for (let year = currentYear - 126; year <= currentYear + 126; year++) {
     const option = document.createElement("option");
     option.value = year;
     option.textContent = year;
