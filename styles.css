@@ -1,0 +1,32 @@
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin-top: 20px;
+}
+
+.calendar-cell {
+  border: 1px solid black;
+  min-height: 80px;
+  padding: 5px;
+}
+
+.empty {
+  background-color: #f5f5f5;
+}
+
+.event {
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+.calendar-cell:first-child,
+.calendar-cell:nth-child(2),
+.calendar-cell:nth-child(3),
+.calendar-cell:nth-child(4),
+.calendar-cell:nth-child(5),
+.calendar-cell:nth-child(6),
+.calendar-cell:nth-child(7) {
+  font-weight: bold;
+  text-align: center;
+}
