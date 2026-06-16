@@ -1,5 +1,5 @@
 import daysData from "./days.json" with { type: "json" };
-import { getCommemorativeDate, MONTH_NAMES } from "./common.mjs";
+import { getCommemorativeDate, monthNames } from "./common.mjs";
 
 function getDaysInMonth(month, year) {
   return new Date(year, month + 1, 0).getDate();
@@ -75,7 +75,7 @@ window.onload = function () {
 
   const currentYear = new Date().getFullYear();
 
-  MONTH_NAMES.forEach((month, index) => {
+  monthNames.forEach((month, index) => {
     const option = document.createElement("option");
     option.value = index;
     option.textContent = month;

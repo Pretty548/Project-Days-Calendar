@@ -1,6 +1,6 @@
 // Shared date calculation logic to be used by both web.mjs and generate-ical.mjs
 
-export const WEEKDAY_NAMES = [
+export const weekdayNames = [
   "Sunday",
   "Monday",
   "Tuesday",
@@ -9,7 +9,7 @@ export const WEEKDAY_NAMES = [
   "Friday",
   "Saturday",
 ];
-export const MONTH_NAMES = [
+export const monthNames = [
   "January",
   "February",
   "March",
@@ -51,8 +51,8 @@ export function getLastWeekdayOfMonth(year, month, weekday) {
 }
 
 export function getCommemorativeDate(dayConfig, year) {
-  const month = MONTH_NAMES.indexOf(dayConfig.monthName);
-  const weekday = WEEKDAY_NAMES.indexOf(dayConfig.dayName);
+  const month = monthNames.indexOf(dayConfig.monthName);
+  const weekday = weekdayNames.indexOf(dayConfig.dayName);
 
   if (dayConfig.occurrence === "last") {
     return getLastWeekdayOfMonth(year, month, weekday);

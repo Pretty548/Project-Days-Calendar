@@ -6,7 +6,6 @@ import {
 import assert from "node:assert";
 import test from "node:test";
 
-
 test("getNthWeekdayOfMonth: second Tuesday of October 2024 is the 8th", () => {
   const result = getNthWeekdayOfMonth(2024, 9, 2, 2); // month 9 = October (0-indexed)
   assert.equal(result.getFullYear(), 2024);
