@@ -1,6 +1,6 @@
 // Shared date calculation logic to be used by both web.mjs and generate-ical.mjs
 
-const WEEKDAY_NAMES = [
+export const WEEKDAY_NAMES = [
   "Sunday",
   "Monday",
   "Tuesday",
@@ -9,7 +9,7 @@ const WEEKDAY_NAMES = [
   "Friday",
   "Saturday",
 ];
-const MONTH_NAMES = [
+export const MONTH_NAMES = [
   "January",
   "February",
   "March",
