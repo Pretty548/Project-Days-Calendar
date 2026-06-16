@@ -82,7 +82,7 @@ window.onload = function () {
     monthSelect.appendChild(option);
   });
 
-  for (let year = currentYear - 10; year <= currentYear + 10; year++) {
+  for (let year = currentYear - 100; year <= currentYear + 100; year++) {
     const option = document.createElement("option");
     option.value = year;
     option.textContent = year;

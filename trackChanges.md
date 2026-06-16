@@ -1,2 +1,3 @@
 - Added hover effect in CSS
 - Added reusable and exportable dates into common.mjs
+- Adjusted " for (let year = currentYear - 100; year <= currentYear + 100; year++) "
