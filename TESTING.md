@@ -38,14 +38,14 @@
 
 ## For Groups of at Least 2
 
-- **Run the supplied file with node, generates a file named days.ics. Import that file into a Google Calendar (see instructions above). Verify the same dates as in the web UI.** - [fill]
-- **The events in the calendar must be whole-day events, and not have a start/end time.** - [fill]
+- **Run the supplied file with node, generates a file named days.ics. Import that file into a Google Calendar (see instructions above). Verify the same dates as in the web UI.** - Ran `node generate-ical.mjs` in the terminal which generated `days.ics` containing 55 events (5 days × 11 years). Imported into Google Calendar and verified Ada Lovelace Day on October 8th 2024, World Lemur Day on October 25th 2024 and International Binturong Day on May 11th 2030 all display correctly.
+- **The events in the calendar must be whole-day events, and not have a start/end time.** - Imported `days.ics` into Google Calendar and confirmed all events appear as whole-day events with no start/end times.
 - **Logic for calculating dates must be shared between the web generator and the iCal generator** - this was ensured by exporting functions from common.mjs
 
 ## For Groups of at Least 3
 
-- **Clicking an Ada Lovelace Day in the web UI displays the below text.** - [fill]
-- **Clicking a Google Calendar event for Ada Lovelace Day displays the below text.** - [fill]
+- **Clicking an Ada Lovelace Day in the web UI displays the below text.** - Navigated to October 2024, clicked Ada Lovelace Day on the 8th and a modal appeared with the correct description fetched from the supplied URL.
+- **Clicking a Google Calendar event for Ada Lovelace Day displays the below text.** - Imported days.ics into Google Calendar, clicked Ada Lovelace Day on October 8th 2024 and the description text displayed correctly in the event details.
 
 ## Unit Tests
 
