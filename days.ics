@@ -4,275 +4,330 @@ BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20201013
 DTEND;VALUE=DATE:20201014
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20211012
 DTEND;VALUE=DATE:20211013
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20221011
 DTEND;VALUE=DATE:20221012
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20231010
 DTEND;VALUE=DATE:20231011
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20241008
 DTEND;VALUE=DATE:20241009
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20251014
 DTEND;VALUE=DATE:20251015
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20271012
 DTEND;VALUE=DATE:20271013
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20281010
 DTEND;VALUE=DATE:20281011
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20291009
 DTEND;VALUE=DATE:20291010
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ada Lovelace Day
 DTSTART;VALUE=DATE:20301008
 DTEND;VALUE=DATE:20301009
+DESCRIPTION:Ada Lovelace was a mathematician who made contributions to the field of computing in its very early days. On Ada Lovelace Day we celebrate and raise awareness of the contributions of women to STEM fields.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20200509
 DTEND;VALUE=DATE:20200510
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20210508
 DTEND;VALUE=DATE:20210509
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20220514
 DTEND;VALUE=DATE:20220515
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20230513
 DTEND;VALUE=DATE:20230514
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20240511
 DTEND;VALUE=DATE:20240512
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20250510
 DTEND;VALUE=DATE:20250511
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20260509
 DTEND;VALUE=DATE:20260510
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20280513
 DTEND;VALUE=DATE:20280514
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20290512
 DTEND;VALUE=DATE:20290513
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Binturong Day
 DTSTART;VALUE=DATE:20300511
 DTEND;VALUE=DATE:20300512
+DESCRIPTION:Binturongs are really cute, and smell of popcorn.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20200905
 DTEND;VALUE=DATE:20200906
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20210904
 DTEND;VALUE=DATE:20210905
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20220903
 DTEND;VALUE=DATE:20220904
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20230902
 DTEND;VALUE=DATE:20230903
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20240907
 DTEND;VALUE=DATE:20240908
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20250906
 DTEND;VALUE=DATE:20250907
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270905
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20280902
 DTEND;VALUE=DATE:20280903
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20290901
 DTEND;VALUE=DATE:20290902
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Vulture Awareness Day
 DTSTART;VALUE=DATE:20300907
 DTEND;VALUE=DATE:20300908
+DESCRIPTION:Vultures are a much maligned species. They provide vital services to the ecosystem, and without them the world would be a much worse place.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20200919
 DTEND;VALUE=DATE:20200920
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20210918
 DTEND;VALUE=DATE:20210919
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20220917
 DTEND;VALUE=DATE:20220918
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20230916
 DTEND;VALUE=DATE:20230917
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20240921
 DTEND;VALUE=DATE:20240922
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20250920
 DTEND;VALUE=DATE:20250921
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20270918
 DTEND;VALUE=DATE:20270919
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20280916
 DTEND;VALUE=DATE:20280917
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20290915
 DTEND;VALUE=DATE:20290916
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:International Red Panda Day
 DTSTART;VALUE=DATE:20300921
 DTEND;VALUE=DATE:20300922
+DESCRIPTION:Red pandas are an endangered species. They happen to be really cute, but that's not the only reason we should help them to thrive!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20201030
 DTEND;VALUE=DATE:20201031
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20211029
 DTEND;VALUE=DATE:20211030
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20221028
 DTEND;VALUE=DATE:20221029
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20231027
 DTEND;VALUE=DATE:20231028
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20241025
 DTEND;VALUE=DATE:20241026
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20251031
 DTEND;VALUE=DATE:20251101
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271030
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20281027
 DTEND;VALUE=DATE:20281028
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20291026
 DTEND;VALUE=DATE:20291027
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:World Lemur Day
 DTSTART;VALUE=DATE:20301025
 DTEND;VALUE=DATE:20301026
+DESCRIPTION:Lemurs are excellent. Did you know that the most likely scientific theory as to how they got to Madagascar is that they rafted there from mainland Africa?
 END:VEVENT
 END:VCALENDAR

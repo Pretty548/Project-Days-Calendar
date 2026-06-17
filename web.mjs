@@ -1,5 +1,6 @@
 import daysData from "./days.json" with { type: "json" };
 import { getCommemorativeDate, monthNames } from "./common.mjs";
+import { fetchDescription } from "./description.mjs";
 
 function getDaysInMonth(month, year) {
   return new Date(year, month + 1, 0).getDate();
@@ -51,12 +52,20 @@ function createCalendarGrid(month, year) {
     cell.textContent = day;
 
     if (events[day]) {
-      events[day].forEach((eventName) => {
-        const eventEl = document.createElement("div");
-        eventEl.classList.add("event");
-        eventEl.textContent = eventName;
-        cell.appendChild(eventEl);
-      });
+      daysData
+        .filter(
+          (d) =>
+            getCommemorativeDate(d, year).getDate() === day &&
+            getCommemorativeDate(d, year).getMonth() === month,
+        )
+        .forEach((dayObj) => {
+          const eventEl = document.createElement("div");
+          eventEl.classList.add("event");
+          eventEl.textContent = dayObj.name;
+          eventEl.style.cursor = "pointer";
+          eventEl.addEventListener("click", () => showDescription(dayObj));
+          cell.appendChild(eventEl);
+        });
     }
 
     calendar.appendChild(cell);
@@ -138,3 +147,21 @@ window.onload = function () {
 
   console.log(`Loaded ${daysData.length} commemorative days`);
 };
+
+async function showDescription(day) {
+  const description = await fetchDescription(day.descriptionURL);
+
+  const modal = document.createElement("dialog");
+  modal.innerHTML = `
+    <h2>${day.name}</h2>
+    <p>${description}</p>
+    <button id="close-modal">Close</button>
+  `;
+  document.body.appendChild(modal);
+  modal.showModal();
+
+  document.getElementById("close-modal").addEventListener("click", () => {
+    modal.close();
+    modal.remove();
+  });
+}
